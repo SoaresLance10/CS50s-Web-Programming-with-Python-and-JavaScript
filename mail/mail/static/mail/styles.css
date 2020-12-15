@@ -1,0 +1,48 @@
+body {
+	padding: 30px;
+	font-family: times; 
+	background-color: #b3d1ff;
+}
+
+.phead, h3 {
+	font-size: 35px;
+	color: #001f4d;
+	font-weight: 900;
+	margin-bottom: 25px;
+}
+
+.nav {
+	padding-left: 80px;
+}
+
+.btn {
+	margin-right: 30px;
+	font-size: 18px;
+	background-color: #001f4d;
+	border-color: #001f4d;
+	color: white;
+	font-weight: 600;
+}
+
+.card {
+	border-width: 1px;
+	border-color: white;
+	margin-bottom: 5px;
+	font-size: 18px;
+}
+
+label {
+	font-size: 18px;
+	font-weight: 900;
+}
+
+#mail-body {
+	background-color: #e6f0ff;
+	border-width: 3px;
+	border-color: white;
+	font-size: 20px; 
+}
+
+textarea {
+    min-height: 400px;
+}
