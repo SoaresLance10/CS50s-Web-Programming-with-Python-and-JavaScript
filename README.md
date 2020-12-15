@@ -1,5 +1,7 @@
 # CS50s-Web-Programming-with-Python-and-JavaScript
-My work for edX's CS50 Web Programming with Python and JavaScript, a course by HarvardX an online learning initiative by Harvard University.
+#### My work for edX's CS50 Web Programming with Python and JavaScript, a course by HarvardX an online learning initiative by Harvard University.
+
+
 This course picks up where Harvard University’s CS50 leaves off, diving more deeply into the design and implementation of web apps with Python, JavaScript, and SQL using frameworks like Django, React, and Bootstrap. Topics include database design, scalability, security, and user experience. Through hands-on projects, students learn to write and use APIs, create interactive UIs, and leverage cloud services like GitHub and Heroku. Taking this course helped me emerge with knowledge and experience in principles, languages, and tools that have empowered me to design and deploy applications on the Internet.
 #### The course had a total of 9 lectures covering the topics:
 1.	HTML, CSS
