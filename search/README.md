@@ -9,7 +9,7 @@ Your website must meet the following requirements.
 
 •	**Pages**: Your website should have at least three pages: one for Google Search, one for Google Image Search, and one for Google Advanced Search.
 
-On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
+1. On the Google Search page, there should be links in the upper-right of the page to go to Image Search or Advanced Search. On each of the other two pages, there should be a link in the upper-right to go back to Google Search.
 
 •	**Query Text**: On the Google Search page, the user should be able to type in a query, click “Google Search”, and be taken to the Google search results for that page.
 
