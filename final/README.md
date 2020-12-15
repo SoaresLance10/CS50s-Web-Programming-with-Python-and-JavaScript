@@ -8,7 +8,9 @@ The **specifications** for the project as mentioned at https://cs50.harvard.edu/
 In this project, you are asked to build a web application of your own. The nature of the application is up to you, subject to a few requirements:
 
 • Your web application must be sufficiently distinct from the other projects in this course (and, in addition, may not be based on the old CS50W Pizza project), and more complex than those.
+
 • Your web application must utilize Django (including at least one model) on the back-end and JavaScript on the front-end.
+
 • Your web application must be mobile-responsive.
 
 ## The web application I have created is a patient management system for a hospital to keep track of patients during this COVID pandemic.
