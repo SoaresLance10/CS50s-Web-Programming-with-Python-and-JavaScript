@@ -1,0 +1,97 @@
+body {
+    padding: 30px;
+    background-color: beige;
+}
+
+.title {
+	text-decoration-color: #660000;
+	font-family: times;
+	text-shadow: 2px 2px #ff8080;
+	border-style: solid;
+	border-radius: 10px;
+	border-width: 3px;
+	border-color: #bf4040;
+	vertical-align: middle;
+	padding: 45px;
+	height: 150px;
+	margin-bottom: 30px;
+}
+
+.user {
+	padding-left: 60px;
+	font-family: times;
+	color: #732626;
+	margin-bottom: 30px;
+}
+
+.nav {
+	border-top-style: solid;
+	border-top-color: lightgrey;
+	border-top-width: 1px; 
+}
+
+.nav-item {
+	margin-top: 20px;
+	margin-left: 35px;
+	background-color: #df9f9f;
+	border-style: solid;
+	border-radius: 3px;
+	border-color: #df9f9f;
+}
+
+.nav-link {
+	color: white;
+}
+
+.w {
+	display: flex;
+}
+
+.wcount {
+	background-color: #660000;
+	font-weight: 500;
+	font-size: 20px;
+	color: #df9f9f;
+	border-radius: 2px;
+	padding-left: 7px;
+	padding-top: 4px;
+	padding-right: 7px;
+}
+
+.phead {
+	font-family: times;
+	color: #660000;
+	font-weight: 900;
+}
+
+.msg {
+	font-family: times;
+	font-size: 20px;
+	padding-left: 60px;
+	margin-bottom: 20px;
+}
+
+.form {
+	display: block;
+	text-align: center;
+}
+
+.form > .create {
+	width: 60%;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.btn {
+	margin-left: 60px;
+	background-color: #df9f9f;
+	color: white;
+	border-color: #df9f9f;
+}
+
+.listings {
+	margin-left: 15%;
+	margin-top: 40px;
+}

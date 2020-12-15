@@ -1,0 +1,57 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% block title %}Travellers Point{% endblock %}</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="{% static 'blog/style.css' %}" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins" />
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">Travellers Point</a>
+            </div>
+            <ul class="nav navbar-nav">
+              <li><a href="#"><b>{{ user.username }}</b></a></li>
+              <li><a href="#">All Posts</a></li>
+              <li><a href="#">Continents</a></li>
+              {% if user.is_authenticated %}
+                <li><a href="#">Create Post</a></li>
+              {% endif %}
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="{% url 'register' %}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              {% if user.is_authenticated %}
+                <li><a href="{% url 'logout' %}"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+              {% else %}
+                <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              {% endif %}
+            </ul>
+          </div>
+        </nav>
+        <div class="logo">
+            <img src="static/blog/image/logo.png" style="height: 100px;">
+        </div>
+        {% if user.is_authenticated %}
+          <div class="alert alert-success" role="alert">
+            <center>Logged in as <strong>{{ user.username }}</strong>.</center>
+          </div>
+        {% else %}
+          <div class="alert alert-warning" role="alert">
+            <center>Not Logged In.</center>
+          </div>
+        {% endif %}
+        
+        {% block notif %}
+        {% endblock %}
+        <div class="content">
+            {% block body %}
+            {% endblock %}
+        </div>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+Query for Normal Google Search: 		https://www.google.com/search?q=Harvard
+Query for Image Search: 			https://www.google.com/search?tbm=isch&q=Harvard
+
+Query for advanced Search: 			query:			as_q=lance
+						excat words: 		as_epq=wins
+						any of words these:	as_oq=good
+						none of these words:	as_eq=drugs
+						no range start:		as_nlo=1
+						no range end:		as_nhi=100
+				
+Query for Im feeling luckt:			http://www.google.com/search?q=Harvard&btnI		
+
+Backgroud RBG values:	#FFFDFE
