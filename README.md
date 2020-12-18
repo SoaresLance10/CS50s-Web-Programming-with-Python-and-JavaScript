@@ -25,4 +25,6 @@ This course picks up where Harvard University’s CS50 leaves off, diving more d
 The course was mildly challenging and helped me get started with Web Programming by introducing important concepts and implementations of Web Developing practices.
 This is my work I submitted for the completion of the course.
 
+### Certificate: https://courses.edx.org/certificates/6beb8de33415497ca62a5c837ad9b9c9
+
 -	Lance Soares 
